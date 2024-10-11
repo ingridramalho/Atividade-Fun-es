@@ -4,7 +4,7 @@ function Multiplicar () {
     const numero3 = Number(document.querySelector("#numero3").value)
     
     const resultado = document.querySelector(".resultado")
-    resultado.innerHTML = Multiplicar: ${numero1*numero2*numero3}
+    resultado.innerHTML = `Resultado: ${numero1*numero2*numero3}`
 }
 
 const button = document.querySelector("button")
